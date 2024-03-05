@@ -13,5 +13,16 @@ public class Resources
         Console.Log(_newName);
         NewResource = _newName;
     }
+
+    public float ExperimentatalMethod(string _overwritingString)
+    {
+        var overwriteResourceID = (float)ResourceIdentity;
+
+        NewResource  = _overwritingString;
+        Console.Log(NewResource);
+
+        return overwriteResourceID;
+        
+    }
 }
 }
